@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom/client';
-import ContactApp from './ContactApp';
+import ContactApp from './components/ContactApp';
+
+// mengimport berkas css sebagai module
+import './styles/style.css';
 
 const element = <h1>Hello, world !</h1>
 
